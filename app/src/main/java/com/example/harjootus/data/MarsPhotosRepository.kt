@@ -8,7 +8,7 @@ import com.example.network.MarsPhoto
  * Repository that fetch mars photos list from marsApi.
  */
 interface MarsPhotosRepository {
-    /** Fetches list of MarsPhoto from marsApi */
+    /** Fetches list of MarsPhoto from marsApi asd*/
     suspend fun getMarsPhotos(): List<MarsPhoto>
 }
 
